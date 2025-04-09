@@ -1,0 +1,19 @@
+frontend/
+├── css/
+│   ├── style.css
+│   ├── dashboard.css
+│   └── user.css
+├── js/
+│   ├── auth.js
+│   ├── adminDashboard.js
+│   ├── userDashboard.js
+│   └── logout.js
+├── assets/
+│   └── logo.jpg
+├── admin/
+│   ├── dashboard.html
+│   └── users.html
+├── user/
+│   └── dashboard.html
+├── login.html
+└── register.html

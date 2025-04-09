@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="auth-container">
+    <div class="logo-container">
+      <img src="assets/logo.jpg" alt="Surf sem Fronteiras" class="logo">
+    <h1>Registro</h1>
+    <form id="registerForm">
+      <div class="form-group">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Senha:</label>
+        <input type="password" id="password" required>
+      </div>
+      <div class="form-group">
+        <label for="role">Função:</label>
+        <select id="role" required>
+          <option value="">Selecione...</option>
+          <option value="admin">Administrador</option>
+          <option value="instrutor">Referência</option>
+          <option value="aluno">Aluno</option>
+          <option value="berola">Berola</option>
+        </select>
+      </div>
+      <button type="submit">Registrar</button>
+    </form>
+    <p>Já tem uma conta? <a href="login.html">Faça login</a></p>
+  </div>
+  <script src="js/auth.js"></script>
+</body>
+</html>
